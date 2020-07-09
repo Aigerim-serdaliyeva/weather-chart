@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+$default_family: Roboto, sans-serif;
+
+body {
+    min-width: 320px;
+    position: relative;
+    font-family: $default_family !important;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.page-wrapper {
+    padding: 50px 0;
+    flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+    .page-title {
+        font-size: 28px;
+    }
+}
