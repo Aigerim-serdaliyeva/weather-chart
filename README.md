@@ -1,4 +1,4 @@
-# kredit-24
+# weather-chart
 
 ## Project setup
 ```
